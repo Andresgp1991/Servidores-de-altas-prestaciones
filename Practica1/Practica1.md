@@ -6,6 +6,4 @@ En la **figura 1** podemos ver la *versión de Apache* y mediante el comando *"p
 
 ![imagen](https://github.com/Andresgp1991/Servidores-web-de-altas-prestaciones/blob/master/Practica1/Figura1.png)
 
-{:.center}**Figura 1: versión Apache**.center {
-  text-align: center;
-}
+<p style="text-align: justify;">**Figura 1: versión Apache**</p>
