@@ -4,8 +4,8 @@
 
 En esta practica vamos a manejarnos mediante las direcciones IP de las dos máquinas, las cuales son:
 
-- Maquina1: 192.168.1.107
-- Maquina2: 192.168.1.109
+- Máquina1: 192.168.1.107
+- Máquina2: 192.168.1.109
 
 Podemos copiar archivos de forma muy sencilla mediante el comando scp de ssh, mediante el comando:
 
@@ -19,7 +19,7 @@ Mediante la herramienta rsync procedemos a clonar la carpeta /var/www/ de la má
 
 **rsync -avz -e ssh 192.168.1.109:/var/www/ /var/www/**
 
-En la **Figura1** podemos ver los archivos que se estan reciviendo de la maquina2, en este caso el archivo Andres.html que habiamos copiado en el apartado anterior:
+En la **Figura1** podemos ver los archivos que se están recibiendo de la máquina2, en este caso el archivo Andres.html que habíamos copiado en el apartado anterior:
 
 ![imagen](https://github.com/Andresgp1991/Servidores-web-de-altas-prestaciones/blob/master/Practica2/Figura1.png)
 
@@ -42,6 +42,40 @@ En la **Figura2** podemos ver que haciendo ssh a la máquina2, no nos pide la co
 ![imagen](https://github.com/Andresgp1991/Servidores-web-de-altas-prestaciones/blob/master/Practica2/Figura2.png)
 
 **Figura 2: conexión ssh sin contraseña**
+
+## Programar tareas con crontab
+
+Cron es un administrador procesos en segundo plano que ejecuta procesos en el instante indicado en el fichero crontab, este fichero tiene el siguiente aspecto:
+
+![imagen](https://github.com/Andresgp1991/Servidores-web-de-altas-prestaciones/blob/master/Practica2/Figura3.png)
+
+**Figura 3: fichero crontab**
+
+Los 7 campos están organizados de la siguiente manera:
+
+- Minuto: indica el minuto de la hora en que el comando será ejecutado.
+- Hora: indica la hora en que el comando será ejecutado.
+- DíaDelMes: indica el día del mes en que se quiere ejecutar el comando.
+- Mes: indica el mes en que el comando se ejecutará (1-12).
+- DíaDeLaSemana: indica el día de la semana en que se ejecutará el comando
+(1=lunes y hasta 7=domingo).
+- Usuario: indica el usuario que ejecuta el comando.
+- Comando: indica el comando que se desea ejecutar.
+
+Lo que vamos a hacer es introducir una tarea a la lista de crontab para que la carpeta **/var/www/** de la máquina1 sea clonada en la máquina2 cada hora, exactamente en el minuto 59 de cada hora, la linea de código que tendríamos que añadir al fichero crontab seria:
+
+59 * * * * root rsync -avz -e ssh 192.168.1.109:/var/www/ /var/www/
+
+El fichero crontab quedaría de la siguiente forma como vemos en la **Figura4**:
+
+![imagen](https://github.com/Andresgp1991/Servidores-web-de-altas-prestaciones/blob/master/Practica2/Figura4.png)
+
+**Figura 4: modificacion fichero crontab**
+
+
+
+
+
 
 
 
