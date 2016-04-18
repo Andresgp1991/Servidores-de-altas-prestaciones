@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿Qué componentes hacen falta para que funcione un sitio web?:</enunciado>
+  <opcionA>Una máquina con sistema operativo, un servidor web y conexión a internet</opcionA>
+  <opcionB>Varias máquinas con sistema operativo, un servidor web en una de ellas y conexión a internet</opcionB>
+  <opcionC>Varias máquinas con sistema operativo, un servidor web en cada una de ellas y conexión a internet</opcionC>
+  <opcionD>Una máquina con sistema operativo, un servidor web, una base de datos y conexión a internet</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Cuando el hardware falla en una máquina, ¿Cuál es una posible solución?:</enunciado>
+  <opcionA>Reparar lo antes posible esa averia</opcionA>
+  <opcionB>Sustituir esa máquina por una que funcione bien</opcionB>
+  <opcionC>Tener una máquina igual que la averiada</opcionC>
+  <opcionD>Sustituir esa máquina por una replica de la misma</opcionD>
+  <solucion>D</solucion>
+</pregunta>

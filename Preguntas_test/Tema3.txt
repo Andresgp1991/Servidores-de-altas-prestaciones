@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>La configuración de red requiere:</enunciado>
+  <opcionA>Elegir el modelo más adecuado, hardware, estructurar en subredes y definir los puntos de entrada a las subredes</opcionA>
+  <opcionB>Elegir un modelo estandar, hardware, estructurar en subredes y definir los puntos de entrada a las subredes</opcionB>
+  <opcionC>Elegir el modelo más adecuado, software, estructurar en subredes y definir los puntos de entrada a las subredes</opcionC>
+  <opcionD>Ninguna de las anteriores es correcta</opcionD>
+  <solucion>A</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Tipos de configuración DMZ:</enunciado>
+  <opcionA>Configuración simple y doble</opcionA>
+  <opcionB>Configuración simple y compuesta</opcionB>
+  <opcionC>Configuración simple, compuesta y tradicional</opcionC>
+  <opcionD>Configuración simple, tradicional y doble</opcionD>
+  <solucion>D</solucion>
+</pregunta>

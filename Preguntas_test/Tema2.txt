@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>Los tipos de no-disponibilidad son:</enunciado>
+  <opcionA>Tiempo de no-disponibilidad programado</opcionA>
+  <opcionB>No hay tipos, se refiere a cuando un sitio web no está disponible</opcionB>
+  <opcionC>Tiempo de no-disponibilidad no programado</opcionC>
+  <opcionD>A y C son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué niveles tenemos que configurar para escalar un sitio web?:</enunciado>
+  <opcionA>Servidores web y aplicaciones</opcionA>
+  <opcionB>Servidores web, aplicaciones, almacenamiento y hardware</opcionB>
+  <opcionC>Servidores web, aplicaciones y almacenamiento</opcionC>
+  <opcionD>Servidores web y almacenamiento</opcionD>
+  <solucion>C</solucion>
+</pregunta>
