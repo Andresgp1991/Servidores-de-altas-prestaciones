@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>Balanceo de carga:</enunciado>
+  <opcionA>Puede manejar los protocolos de alto nivel</opcionA>
+  <opcionB>Es un puente entre la red y los servidores finales</opcionB>
+  <opcionC>Puede manejar los protocolos de nivel de red</opcionC>
+  <opcionD>Todas las anteriores son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>En que consiste el balanceo de carga global:</enunciado>
+  <opcionA>Distribuir la carga entre varios servidores</opcionA>
+  <opcionB>Distribuir la carga entre varios centros</opcionB>
+  <opcionC>Distribuir la carga entre varios clusters</opcionC>
+  <opcionD>Ninguna de las anteriores es correcta</opcionD>
+  <solucion>B</solucion>
+</pregunta>
