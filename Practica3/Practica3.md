@@ -11,28 +11,33 @@ En esta practica vamos a manejarnos mediante las direcciones IP de tres máquina
 Procedemos a instalar el servidor nginx, lo primero que tenemos que hacer es importar la clave del repositorio del software, para ello utilizamos los siguientes comandos:
 
 **cd /tmp/**
+
 **wget http://nginx.org/keys/nginx_signing.key**
+
 **apt-key add /tmp/nginx_signing.key**
+
 **rm -f /tmp/nginx_signing.key**
 
 A continuación, debemos añadir el repositorio al fichero /etc/apt/sources.list:
 
 **echo "deb http://nginx.org/packages/ubuntu/ lucid nginx" >> /etc/apt/sources.list**
+
 **echo "deb-src http://nginx.org/packages/ubuntu/ lucid nginx" >> /etc/apt/sources.list**
 
 Una vez añadidos los repositorios, procedemos a instalar nginx:
 
 **apt-get update**
+
 **apt-get install nginx**
 
 ### Balanceo de carga usando nginx
 
 Para que nginx funcione como balanceador tenemos que modificar el fichero **/etc/nginx/conf.d/default.conf**, primero tenemos que definir que máquinas formaran nuestra granja web, en la sección *upstream* añadiendo las direcciones IP de nuestros servidores (en este caso la máquina1 y máquina 2) quedando de esta manera:
 
-**upstream apaches {**
-	**server 172.16.168.108;**
-	**server 172.16.168.109;**
-**}**
+**upstream apaches {
+	server 172.16.168.108;
+	server 172.16.168.109;
+}**
 
 En la siguiente sección *sever*, es importante para que el proxy_pass funcione correctamente que indiquemos que la conexión entre nginx y los servidores finales sea HTTP 1.1 así como especificarle que debe eliminar la cabecera Connection para evitar que se pase al servidor final la cabecera que indica el usuario, quedando de esta manera:
 
