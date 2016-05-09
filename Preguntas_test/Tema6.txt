@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿Cuáles son los diferentes niveles de seguridad?</enunciado>
+  <opcionA>Seguridad a nivel físico y de red</opcionA>
+  <opcionB>Seguridad a nivel de administrador</opcionB>
+  <opcionC>Cuentas de servicios o aplicaciones</opcionC>
+  <opcionD>Todas las anteriores son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué prácticas de seguridad se recomiendan en una granja web?</enunciado>
+  <opcionA>Copias de seguridad</opcionA>
+  <opcionB>Máquinas clonadas</opcionB>
+  <opcionC>Imágenes de instalación de los servidores</opcionC>
+  <opcionD>La A y C son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>

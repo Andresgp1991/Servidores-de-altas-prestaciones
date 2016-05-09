@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿Qué tipos de tráfico exinten en un balanceador?</enunciado>
+  <opcionA>HTTP y tienda web</opcionA>
+  <opcionB>FTP o streaming</opcionB>
+  <opcionC>HTTP y FTP</opcionC>
+  <opcionD>La A y B son correctas</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>Pasos para establecer una conexión HTTP:</enunciado>
+  <opcionA>El cliente envia un paquete TCP SYN al puerto 80 del servidor web, el servidor web envía un paquete ACK al cliente seguido de otro SYN y el cliente envía un paquete ACK como respuesta.</opcionA>
+  <opcionB>El cliente envia un paquete TCP SYN al puerto 80 del servidor web, el servidor web envía un paquete ACK al cliente seguido de otro SYN.</opcionB>
+  <opcionC>El cliente envia un paquete UDP SYN al puerto 80 del servidor web, el servidor web envía un paquete ACK al cliente seguido de otro SYN y el cliente envía un paquete ACK como respuesta.</opcionC>
+  <opcionD>El cliente envia un paquete UDP SYN al puerto 80 del servidor web, el servidor web envía un paquete ACK al cliente seguido de otro SYN.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
