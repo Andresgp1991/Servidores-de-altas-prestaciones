@@ -170,14 +170,18 @@ Para configurar Pound tenemos que modificar el archivo de configuración **/etc/
 			BackEnd
 				Address 192.168.1.108
 				Port	80
+				Priority 2
 			End
 
 			BackEnd
 				Address 192.168.1.109
 				Port	80
+				Priority 1
 			End
 		End
 	End
+
+Si queremos darle mas prioridad a un servidor tendríamos que añadir la directiva Priority, con la cual daría el doble de prioridad a la máquina1 (Priority 2).
 
 ![imagen](https://github.com/Andresgp1991/Servidores-web-de-altas-prestaciones/blob/master/Practica3/Imagenes/Figura5.png)
 			
