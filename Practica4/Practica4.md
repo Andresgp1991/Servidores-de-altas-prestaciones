@@ -291,7 +291,7 @@ En la **Tabla4** vemos las media de todas las tablas que hemos hecho, sacando la
 | Media Siege | 78671 - 1319,85 | 29602 - 497,49 | 26848 - 451,47 |
 | Media Httperf | 0,306 - 3271,39 | 0,915 - 1096,92 | 0,881 - 1135,53 |
 
-		Tabla4: Conclusion de todas las herramientas
+		Tabla4: Conclusión de todas las herramientas
 
 En la **Tabla5** hemos hecho la media de las tres herramientas en cada uno de los escenarios que las hemos usado y la conclusión es que httperf ofrece una velocidad de transferencia mucho mayor para sobrecargar el servidor web, y una serie de opciones mas completa.
 
