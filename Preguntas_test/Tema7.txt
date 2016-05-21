@@ -1,0 +1,17 @@
+<pregunta>
+  <enunciado>¿Qué es un Raid?</enunciado>
+  <opcionA>Conjunto de discos independientes</opcionA>
+  <opcionB>Conjunto redundante de discos independientes</opcionB>
+  <opcionC>Conjunto redundante de discos dependientes</opcionC>
+  <opcionD>Ninguna de las anteriores es correcta</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+
+<pregunta>
+  <enunciado>¿Qué Raid hace una copia exacta (o espejo) de los datos?</enunciado>
+  <opcionA>Raid 0</opcionA>
+  <opcionB>Raid 1</opcionB>
+  <opcionC>Raid 4</opcionC>
+  <opcionD>Raid 5</opcionD>
+  <solucion>B</solucion>
+</pregunta>
