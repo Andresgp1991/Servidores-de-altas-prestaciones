@@ -95,7 +95,7 @@ En este caso *datos* seria el nombre de la tabla que queremos ver su informació
 
 La herramienta mysqldum nos la ofrece MySQL para clonar las BD que tenemos en nuestra máquina.
 
-![Hola](https://github.com/Andresgp1991/Servidores-web-de-altas-prestaciones/blob/master/Practica5/Imagenes/Figura2.png)
+![Hola](https://github.com/Andresgp1991/Servidores-web-de-altas-prestaciones/blob/master/Practica5/Imagenes/Figura2.png "Hola")
 
 
 		root@Ubuntu-Server-1:/# mysql -u root –p
